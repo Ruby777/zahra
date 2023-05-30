@@ -11,3 +11,20 @@
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }	
 /* ============ desktop view .end// ============ */
+
+.dropdown-toggle::after{
+	display: none !important;
+}
+.nav-item {
+	padding: 40px 0 30px;
+	font-size: 22px;
+	font-weight: 600;
+	text-align: center;
+}
+
+li.nav-item img {
+	display: none;
+}
+li.nav-item:hover + .hide {
+	display: block;
+}
