@@ -25,6 +25,7 @@
 li.nav-item img {
 	display: none;
 }
-li.nav-item:hover + .hide {
+a.nav-link:hover + .hide {
 	display: block;
+	color: chartreuse !important;
 }
