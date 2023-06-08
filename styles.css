@@ -12,6 +12,11 @@
 }	
 /* ============ desktop view .end// ============ */
 
+body {
+  margin: 0;
+  font-family: Edelsans, Avenir, sans-serif;
+}
+
 .dropdown-toggle::after{
 	display: none !important;
 }
@@ -28,4 +33,9 @@ li.nav-item img {
 a.nav-link:hover + .hide {
 	display: block;
 	color: chartreuse !important;
+}
+
+section {
+	width: 100%;
+	height: 100vh;
 }
